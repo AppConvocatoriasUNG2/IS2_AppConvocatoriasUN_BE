@@ -1,0 +1,2 @@
+class SocEcSupportOffersController < ApplicationController
+end

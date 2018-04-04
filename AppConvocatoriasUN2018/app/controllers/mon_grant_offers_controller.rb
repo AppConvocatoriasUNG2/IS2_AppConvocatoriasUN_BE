@@ -1,0 +1,2 @@
+class MonGrantOffersController < ApplicationController
+end

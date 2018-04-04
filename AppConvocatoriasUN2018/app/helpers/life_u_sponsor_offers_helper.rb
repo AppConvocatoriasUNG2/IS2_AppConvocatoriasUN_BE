@@ -1,0 +1,2 @@
+module LifeUSponsorOffersHelper
+end

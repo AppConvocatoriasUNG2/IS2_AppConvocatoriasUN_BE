@@ -1,0 +1,2 @@
+class AuxStdOffersController < ApplicationController
+end

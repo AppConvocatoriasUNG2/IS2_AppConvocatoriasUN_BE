@@ -9,7 +9,7 @@ class CreateMonGrantOffers < ActiveRecord::Migration[5.1]
       t.string :selectreq2, limit: 4
       t.decimal4, :valuesr2
       t.decimal1, :valuesr2
-      t.references, :faculty
+      t.references, :faculty, foreign_key: true
       t.string :modalitymg, limit: 1
       t.string :acttype, limit: 1
       t.string, :subjectM

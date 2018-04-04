@@ -1,0 +1,2 @@
+module MonGrantOffersHelper
+end

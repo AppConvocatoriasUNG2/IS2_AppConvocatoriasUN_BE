@@ -7,7 +7,7 @@ class CreateAuxStdOffers < ActiveRecord::Migration[5.1]
       t.timestamp, :publicationdate1
       t.datetime, :deadlinedate1
       t.string :typeoffer, limit: 1
-      t.references, :dependency
+      t.references, :dependency, foreign_key: true
       t.string :selectreq1, limit: 4
       t.decimal4, :valuesr
       t.decimal1, :valuesr

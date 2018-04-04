@@ -1,0 +1,2 @@
+class LifeUSponsorOffersController < ApplicationController
+end

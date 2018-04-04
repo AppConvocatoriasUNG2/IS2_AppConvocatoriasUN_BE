@@ -1,0 +1,2 @@
+class FileDocsController < ApplicationController
+end
