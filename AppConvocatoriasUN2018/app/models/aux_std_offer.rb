@@ -1,0 +1,2 @@
+class AuxStdOffer < ApplicationRecord
+end

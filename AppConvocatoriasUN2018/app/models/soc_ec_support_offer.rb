@@ -1,0 +1,2 @@
+class SocEcSupportOffer < ApplicationRecord
+end

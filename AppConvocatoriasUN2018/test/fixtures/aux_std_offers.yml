@@ -1,0 +1,33 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  idauxstdoffer: 
+  nameauxstdoffer: 
+  addressedto1: MyString
+  publicationdate1: 
+  deadlinedate1: 
+  typeoffer: MyString
+  dependency: 
+  selectreq1: MyString
+  valuesr: 
+  valuesr: 
+  hrsperweekavailability: 
+  payment: 
+  payment: 
+  durationlinkinweeks: 1
+
+two:
+  idauxstdoffer: 
+  nameauxstdoffer: 
+  addressedto1: MyString
+  publicationdate1: 
+  deadlinedate1: 
+  typeoffer: MyString
+  dependency: 
+  selectreq1: MyString
+  valuesr: 
+  valuesr: 
+  hrsperweekavailability: 
+  payment: 
+  payment: 
+  durationlinkinweeks: 1

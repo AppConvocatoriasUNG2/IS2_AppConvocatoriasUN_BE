@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  idfile: 
+  typefile: MyString
+  namefile: 
+  existfile: 
+  filebelongsto: one
+
+two:
+  idfile: 
+  typefile: MyString
+  namefile: 
+  existfile: 
+  filebelongsto: two

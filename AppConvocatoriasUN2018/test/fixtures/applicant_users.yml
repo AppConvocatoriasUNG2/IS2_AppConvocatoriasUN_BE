@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  idapplicantuser: 
+  tiun: 
+  emailapplicant: 
+  fullnameapplicant: 
+  encryptedPassword: 
+  papaapplicant: 
+  papaapplicant: 
+  pbmapplicant: 
+  pbmapplicant: 
+
+two:
+  idapplicantuser: 
+  tiun: 
+  emailapplicant: 
+  fullnameapplicant: 
+  encryptedPassword: 
+  papaapplicant: 
+  papaapplicant: 
+  pbmapplicant: 
+  pbmapplicant: 

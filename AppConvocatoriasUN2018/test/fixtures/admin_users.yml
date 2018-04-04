@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  idadminuser: 
+  admincharge: MyString
+  emailadmin: 
+  fullnameadmin: 
+  encryptedPass: MyString
+
+two:
+  idadminuser: 
+  admincharge: MyString
+  emailadmin: 
+  fullnameadmin: 
+  encryptedPass: MyString

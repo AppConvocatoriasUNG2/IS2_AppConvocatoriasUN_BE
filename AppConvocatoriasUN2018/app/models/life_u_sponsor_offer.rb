@@ -1,0 +1,2 @@
+class LifeUSponsorOffer < ApplicationRecord
+end

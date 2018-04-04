@@ -1,0 +1,2 @@
+class MonGrantOffer < ApplicationRecord
+end

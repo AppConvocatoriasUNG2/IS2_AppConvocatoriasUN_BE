@@ -1,0 +1,31 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  idlifeusponsoroffer: 
+  namelusoffer: 
+  addressedto2: MyString
+  publicationdate2: 
+  deadlinedate2: 
+  selectreq3: MyString
+  valuesr: 
+  valuesr: 
+  modalitylus: MyString
+  numquotas: 
+  hrsperweek2: 
+  payment2: 
+  payment2: 
+
+two:
+  idlifeusponsoroffer: 
+  namelusoffer: 
+  addressedto2: MyString
+  publicationdate2: 
+  deadlinedate2: 
+  selectreq3: MyString
+  valuesr: 
+  valuesr: 
+  modalitylus: MyString
+  numquotas: 
+  hrsperweek2: 
+  payment2: 
+  payment2: 

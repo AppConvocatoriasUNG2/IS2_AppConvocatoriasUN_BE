@@ -1,0 +1,35 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  idmongrantoffer: 
+  namemgoffer: 
+  addressedto3: MyString
+  publicationdate3: 
+  deadlinedate3: 
+  selectreq2: MyString
+  valuesr2: 
+  valuesr2: 
+  faculty: 
+  modalitymg: MyString
+  acttype: MyString
+  subjectM: 
+  hrsperweek: 
+  admin_user: 
+  stateoffer: MyString
+
+two:
+  idmongrantoffer: 
+  namemgoffer: 
+  addressedto3: MyString
+  publicationdate3: 
+  deadlinedate3: 
+  selectreq2: MyString
+  valuesr2: 
+  valuesr2: 
+  faculty: 
+  modalitymg: MyString
+  acttype: MyString
+  subjectM: 
+  hrsperweek: 
+  admin_user: 
+  stateoffer: MyString
