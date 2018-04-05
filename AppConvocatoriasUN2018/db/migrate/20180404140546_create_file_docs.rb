@@ -4,7 +4,7 @@ class CreateFileDocs < ActiveRecord::Migration[5.1]
       t.string :typefile, limit: 3
       t.string :namefile
       t.boolean :existfile
-      t.references :filebelongsto, foreign_key: true
+      t.references :filebelongsto, foreign_key: true, polymorphic: true, index: true
 
       t.timestamps
     end

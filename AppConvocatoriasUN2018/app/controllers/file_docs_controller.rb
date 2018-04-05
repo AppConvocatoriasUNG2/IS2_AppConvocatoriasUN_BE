@@ -1,7 +1,7 @@
 class FileDocsController < ApplicationController
     
     def show
-        @filedocs = filedocs.all 
+        @filedocs = file_docs.all 
     end
     
 end
