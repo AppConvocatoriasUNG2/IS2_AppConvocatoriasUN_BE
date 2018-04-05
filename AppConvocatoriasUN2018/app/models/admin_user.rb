@@ -3,6 +3,6 @@ class AdminUser < ApplicationRecord
   # :confirmable, :lockable, :timeoutable and :omniauthable
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable
-    has_many :file_doc
-    has_many :mon_grant_offer
+    has_many :file_docs
+    has_many :mon_grant_offers
 end

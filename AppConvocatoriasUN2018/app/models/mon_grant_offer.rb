@@ -1,6 +1,6 @@
 class MonGrantOffer < ApplicationRecord
-    has_many :subscription
-    has_many :applicant_user, through: :subscription
+    has_many :subscriptions
+    has_many :applicant_users, through: :subscriptions
     belongs_to :admin_user
     has_one :file_doc
     belongs_to :dependency

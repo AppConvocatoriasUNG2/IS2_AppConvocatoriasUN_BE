@@ -1,8 +1,12 @@
 class ApplicantUser < ApplicationRecord
-    has_many :file_doc
-    has_many :subscription
-    has_many :aux_std_offer, through: :subscription
-    has_many :mon_grant_offer, through: :subscription
-    has_many :life_u_sponsor_offer, through: :subscription
-    has_many :soc_ec_support_offer, through: :subscription
+  # Include default devise modules. Others available are:
+  # :confirmable, :lockable, :timeoutable and :omniauthable
+  devise :database_authenticatable, :registerable,
+         :recoverable, :rememberable, :trackable, :validatable
+    has_many :file_docs
+    has_many :subscriptions
+    has_many :aux_std_offers, through: :subscriptions
+    has_many :mon_grant_offers, through: :subscriptions
+    has_many :life_u_sponsor_offers, through: :subscriptions
+    has_many :soc_ec_support_offers, through: :subscriptions
 end

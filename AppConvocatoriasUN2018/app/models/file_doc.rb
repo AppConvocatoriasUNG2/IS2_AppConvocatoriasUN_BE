@@ -1,3 +1,3 @@
 class FileDoc < ApplicationRecord
-  belongs_to :filebelongsto
+  belongs_to :filebelongsto, required: true
 end
