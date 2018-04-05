@@ -1,3 +1,3 @@
 class AdminUser < ApplicationRecord
-    has_many :filedoc
+    has_many :file_doc
 end

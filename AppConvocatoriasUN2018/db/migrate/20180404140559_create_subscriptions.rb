@@ -1,8 +1,7 @@
 class CreateSubscriptions < ActiveRecord::Migration[5.1]
   def change
     create_table :subscriptions do |t|
-      t.primary :idsubscription
-      t.references :susboffer
+      t.references :subsoffer, foreign_key: true
       t.references :usersubs, foreign_key: true
 
       t.timestamps
