@@ -28,7 +28,7 @@ class ApplicantUser < ApplicationRecord
   # :confirmable, :lockable, :timeoutable and :omniauthable
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable
-    has_many :file_docs
+    has_many :file_docs, as: :filebelongsto_id
     has_many :subscriptions
     has_many :aux_std_offers, through: :subscriptions
     has_many :mon_grant_offers, through: :subscriptions

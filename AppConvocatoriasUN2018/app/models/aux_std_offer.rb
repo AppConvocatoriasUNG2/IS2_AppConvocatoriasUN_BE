@@ -19,8 +19,8 @@
 #
 
 class AuxStdOffer < ApplicationRecord
-    has_many :subscriptions
+    has_many :subscriptions, as: :susboffer_id
     has_many :applicant_users, through: :subscriptions
-    has_one :file_doc
+    has_one :file_doc, as: :filebelongsto_id
     belongs_to :dependency
 end
